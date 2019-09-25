@@ -1,9 +1,6 @@
 import Draw from './L.PM.Draw';
 import {getTranslation} from "../helpers";
 
-console.log('Draw')
-console.log(Draw)
-
 Draw.Volume = Draw.Line.extend({
   initialize(map) {
     this._map = map;
